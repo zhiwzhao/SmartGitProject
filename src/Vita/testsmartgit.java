@@ -6,8 +6,14 @@ public class testsmartgit {
 		// TODO Auto-generated method stub
 		System.out.println("This is a test project for smart git.");
 		person person=new person();
+		String personNameString=person.getName();
+		System.out.println("person name:"+personNameString);
 		
-		System.out.println(person.getName());
+		car cherryCar=new car();
+		String carNameString=cherryCar.getName();
+		System.out.println("car name:"+carNameString);
+		
+		
 	}
 
 }
