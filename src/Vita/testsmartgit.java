@@ -13,7 +13,7 @@ public class testsmartgit {
 		String carNameString=cherryCar.getName();
 		System.out.println("car name:"+carNameString);
 		
-		
+		System.out.println(personNameString+" Buy "+carNameString);
 	}
 
 }
